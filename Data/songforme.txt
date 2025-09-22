@@ -1,0 +1,19 @@
+What to do now:
+
+Delete your last message immediately.
+
+Regenerate your API Key: The best practice after a key is exposed is to delete it and create a new one.
+
+Go to the Google Cloud Console Credentials page.
+
+Make sure your collego-pedia project is selected at the top.
+
+You will see a list of API keys. Find the one that you just posted (it will be named something like "Browser key (auto created by Firebase)").
+
+Click the trash can icon to delete it.
+
+Click "CREATE CREDENTIALS" at the top, select "API key", and a new one will be generated.
+
+Copy this new key and use it in your .env.local file.
+
+This is a critical lesson in web development: Never, ever share the contents of your .env or any other file with secret keys publicly.Error generating content.
